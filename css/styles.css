@@ -152,8 +152,21 @@ footer {
   text-align: center;
 }
 .search-input {
-  width: 45rem;
+  width: 48rem;
   height: 2rem;
-  border-radius: 0.3rem;
-  padding: 1rem;
+  border-radius: 0.456rem;
+  padding: 1.1rem;
 }
+/* .list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content:stretch;
+} */
+/* .cotainer-fluid{
+  display:flex;
+  flex-direction:row;
+} */
+/* .nav-link {
+  margin: 0;
+  padding: 0;
+} */
