@@ -196,3 +196,13 @@ a {
 .col-lg-3 {
   padding-left: 0;
 }
+
+/* .header-section {
+  margin-left: 5.68rem;
+} */
+/* .container {
+  margin-left: 5.68rem;
+} */
+.col {
+  padding: 0 !important;
+}
