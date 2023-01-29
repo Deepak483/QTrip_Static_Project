@@ -64,7 +64,6 @@ a {
   justify-content: flex-end;
   overflow: hidden;
   border-radius: 8px;
-  /* object-fit:contain; */
   max-height: 21.75rem;
 }
 .tile img {
@@ -105,8 +104,6 @@ a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  /* object-fit: cover; */
-  /* width:100vw; */
 }
 
 .hero-subheading {
@@ -136,18 +133,15 @@ a {
   width: 100%;
   position: relative;
   border-radius: 8px;
-  /* height: 20.94rem; */
-  /* display: flex; */
 }
 .adventure-card img {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
   width: 100%;
-  height: 100%;
-  /* height: 14.067rem; */
+  min-height: 15.87rem;
+  height: 15.87rem;
   transition: all 0.2s;
-  /* position: relative; */
-  /* background-position: center; */
+  background-position: center;
   object-fit: cover;
 }
 .adventure-card img:hover {
@@ -206,15 +200,6 @@ a {
   padding-left: 0;
 }
 
-/* .header-section {
-  margin-left: 5.68rem;
-} */
-/* .container {
-  margin-left: 5.68rem;
-} */
-/* .text-card{
-  display: flex;
-  justify-content: space-between;
-  padding: 0 0.3rem 0 0.3rem;
-  margin-top:0.4rem;
-} */
+.card-title{
+  margin-bottom: 0px !important;
+}
