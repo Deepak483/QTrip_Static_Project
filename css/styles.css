@@ -97,7 +97,7 @@ a {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/assets/hero.jpg");
 
-  /* TODO: MODULE_LAYOUT */
+  /* TODO: MODULE_LAYOUT */ 
   /* 1. Set a specific height. */
   /* 2. Position and center the image to scale nicely on all screens. */
   height: 50vh;
@@ -130,7 +130,7 @@ a {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
   height: 20rem; 
-  width: 100%;
+  /* width: 100%; */
   position: relative;
   border-radius: 8px;
 }
