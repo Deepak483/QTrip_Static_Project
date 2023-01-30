@@ -203,3 +203,21 @@ a {
 .card-title{
   margin-bottom: 0px !important;
 }
+.image-border{
+  border:1px solid black;
+}
+.header-caption-border{
+  border:1px solid brown;
+}
+.content-border{
+  border:2px solid cadetblue;
+}
+.sold-out-border{
+  border:2px solid red;
+}
+.content{
+  border:4px solid blue;
+}
+.grid-container{
+  border:5px solid chartreuse;
+}
