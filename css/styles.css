@@ -129,8 +129,8 @@ a {
 .adventure-card {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
-  height: 20rem;
-  /* width: 100%; */
+  height: 20rem; 
+  width: 100%;
   position: relative;
   border-radius: 8px;
 }
@@ -148,7 +148,7 @@ a {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
   filter: brightness(50%);
-  cursor: pointer;
+  cursor:pointer;
 }
 
 /* ================================== */
@@ -163,10 +163,23 @@ a {
 .adventure-card-image {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
+  /* height:29rem; */
+  width:100%;
+}
+.adventure-card-image img{
+  height:29rem;
+  background-size: cover;
+  background-position: center;
+}
+.adventure-card-image .image2{
+  height:23rem;
 }
 .adventure-card-image:hover {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
+  filter: brightness(50%);
+  cursor:pointer;
+  
 }
 .experience-content ul li {
   margin-left: 16px;
@@ -203,21 +216,42 @@ a {
 .card-title{
   margin-bottom: 0px !important;
 }
-.image-border{
-  border:1px solid black;
+
+/* Adventure detail custom css written by me */
+
+.card-title{
+  margin-bottom: 0px !important;
+}
+.image-container{
+  /* border:1px solid black; */
 }
 .header-caption-border{
-  border:1px solid brown;
+  /* border:1px solid brown; */
 }
 .content-border{
-  border:2px solid cadetblue;
+  /* border:2px solid cadetblue; */
 }
 .sold-out-border{
   border:2px solid red;
 }
 .content{
-  border:4px solid blue;
+  /* border:4px solid blue; */
 }
 .grid-container{
   border:5px solid chartreuse;
+
+}
+.sold-out-container{
+  border:4px solid orange;
+}
+@media (max-width:992px) {
+  .grid-container{
+    display:flex;
+    flex-direction:column;
+  }
+}
+@media (max-width:992px){
+  .image2,.image3,.small-image{
+    display:none;
+  }
 }
