@@ -5,12 +5,12 @@
 html,
 body {
  position: relative;
- /* font-style: "Inter", sans-serif !important; */
 }
 
 body {
- overflow-y: auto;
- min-height: 100vh;
+	overflow-y: auto;
+	min-height: 100vh;
+	/* font-style: "Inter", sans-serif !important; */
 }
 textarea:focus,
 input:focus {
@@ -189,19 +189,12 @@ a {
  padding: 0;
 }
 
-@media only screen and (min-width: 768px) {
- /* For desktops phones: */
- #reservation {
-  width: 400px;
-  position: fixed;
- }
-}
-@media only screen and (max-width: 992px) {
+/* @media only screen and (min-width: 992px) {
  #reservation {
   width: 300px;
   position: fixed;
  }
-}
+} */
 /* Styles added by me */
 .hero-subheading {
  text-align: center;
@@ -228,23 +221,24 @@ a {
 
 /* Adventure detail custom css written by me */
 
-.sold-out {
+/* .sold-out {
  height: 10rem;
  /* width:400px; */
  /* position:fixed; */
- /* margin-left:37rem; */
-}
-@media (max-width: 992px) {
- .sold-out {
-  margin-left: 37rem;
- }
-}
-@media (max-width: 992px) {
+
+/* @media (max-width: 992px) {
  .grid-container {
   display: flex;
   flex-direction: column;
  }
-}
+} */
 #reservation p a {
  /* color: #ffd861 !important; */
+}
+@media only screen and (min-width: 992px) {
+ /* For desktops phones: */
+ #reservation {
+  width: 400px;
+  position: fixed;
+ }
 }
